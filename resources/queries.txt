@@ -1,0 +1,3 @@
+select red where qual != 2 and qual != 4 and qual != 6 and chlorid > 0.300
+select red or white where qual > 5 and qual <= 6 and t_sulf >= 245
+select WHITE where alc = 12 and qual < 5
